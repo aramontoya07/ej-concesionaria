@@ -4,7 +4,6 @@ public abstract class Vehiculo {
     String marca;
     String modelo;
     Double precio;
-    Locale spanish2 = new Locale("es", "ES");
 
     public Vehiculo(String marca, String modelo, Double precio) {
         this.marca = marca;
