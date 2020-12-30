@@ -25,7 +25,7 @@ public abstract class Vehiculo {
 
     public abstract void mostrarse();
 
-    public String mostrarMarcaYModelo() {
+    public String getMarcaYModelo() {
         return this.getMarca() + " " + this.getModelo();
     }
 
